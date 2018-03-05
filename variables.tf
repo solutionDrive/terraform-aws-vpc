@@ -52,7 +52,3 @@ variable "tags" {
   type = "map"
   default     = {}
 }
-
-variable "provider_region" {}
-
-variable "account_id" {}
