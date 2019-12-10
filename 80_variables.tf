@@ -1,3 +1,14 @@
+variable "provider_region" {}
+
+variable "profile" {
+  description = "the AWS profile to use"
+}
+
+variable "assume_role_arn" {
+  description = "ARN of the role to use (default = '' | do not use a role to assume)"
+  default = ""
+}
+
 variable "name" {}
 
 variable "cidr" {}
